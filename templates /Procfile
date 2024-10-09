@@ -1,0 +1,1 @@
+web: gunicorn boolove1.wsgi
