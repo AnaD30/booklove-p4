@@ -30,7 +30,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['booklove1.herokuapp.com','localo host', '8000-anad30-booklovep4-fdxyq4w1zpl.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['booklove2.herokuapp.com','localo host', '8000-anad30-booklovep4-fdxyq4w1zpl.ws.codeinstitute-ide.net']
 
 
 # Application definition
@@ -94,7 +94,7 @@ DATABASES = {
 
 CSRF_TRUSTED_ORIGINS = [
     "https://8000-anad30-booklovep4-fdxyq4w1zpl.ws.codeinstitute-ide.net'/",
-    "https://booklove1.herokuapp.com"
+    "https://booklove2.herokuapp.com"
 ]
 
 # Password validation
