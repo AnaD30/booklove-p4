@@ -94,7 +94,7 @@ DATABASES = {
 
 CSRF_TRUSTED_ORIGINS = [
     "https://8000-anad30-booklovep4-fdxyq4w1zpl.ws.codeinstitute-ide.net'/",
-    "https://booklove2.herokuapp.com"
+    "https://'booklove1-03a26bf9d66c.herokuapp.com'.herokuapp.com"
 ]
 
 # Password validation
