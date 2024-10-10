@@ -1,1 +1,1 @@
-web:  gunicorn booklove1.wsgi 
+web:  gunicorn booklove.wsgi 
