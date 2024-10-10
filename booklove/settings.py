@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['booklove1.herokuapp.com','localo host', '8000-anad30-booklovep4-fdxyq4w1zpl.ws.codeinstitute-ide.net']
 
@@ -91,6 +91,11 @@ DATABASES = {
 DATABASES = {
      'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
  }
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://8000-anad30-booklovep4-fdxyq4w1zpl.ws.codeinstitute-ide.net'/",
+    "https://booklove1.herokuapp.com"
+]
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
